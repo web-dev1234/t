@@ -1,0 +1,61 @@
+body{
+	padding:50px 0px 0px 0px;
+	z-index:0;
+	
+}
+nav{
+	font-size: 30px;
+	padding: 4px;
+	margin: 5px;
+	
+}
+.navbar{
+	background-color:lightcyan;
+	border-radius: 18px;
+}
+
+nav a:link{
+    color:blue;
+}
+nav a:visited{
+    color:pink;
+    background-color:white;
+}
+nav a:hover, nav a:active{
+    color:red !important;
+    background-color:white;
+}
+nav a:focus{
+    color:orange;
+}
+nav a:hover{
+	text-decoration: none;
+}
+.active{
+	font-family: cursive;
+}
+.jumbotron{
+	color: darkred;
+}
+h1{
+	text-align: center;
+	color: orange;
+}
+
+section{
+	text-align: center;
+	color:deeppink;
+	font-size: 30px;
+	-webkit-user-modify:read-write-plaintext-only;
+	-moz-user-modify:read-write-plaintext-only;
+	margin: 4%;
+	
+}
+footer{
+	font-size: 40px;
+	color:orange;
+	background-color: black;
+}
+a{
+	text-decoration: none;
+}
